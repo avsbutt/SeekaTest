@@ -12,6 +12,12 @@ describe("Add To Cart an Apple Product", ()=>{
         AddToCartForm.PhoneAndTablets()
         AddToCartForm.Apple()
         AddToCartForm.InStock()
-        AddToCartForm.iPodShuffle()
+        // AddToCartForm.iPodShuffle()
+        AddToCartForm.iPodNano()
+        // AddToCartForm.iMac()
+        AddToCartForm.Checkout()
+        AddToCartForm.CheckoutSideBar()
     })
+  
+
 })

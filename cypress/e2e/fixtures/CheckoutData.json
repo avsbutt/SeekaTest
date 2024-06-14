@@ -1,4 +1,12 @@
 {
     "FirstName":"Awais",
-    "LastName":"Butt"
+    "LastName":"Butt",
+    "Email":"test@gmail.com",
+    "Telephone":"00332323200",
+    "Password":"Password123",
+    "PasswordConfirm":"Password123@",
+    "Address":"Fazal Town",
+    "City":"Rawalpindi",
+    "PostalCode":"40004"
+
 }

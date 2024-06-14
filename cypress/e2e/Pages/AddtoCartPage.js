@@ -18,14 +18,33 @@ export class AddtoCartClass{
         cy.get(AddtoCartFunction.AddToCartLocators.InStock).scrollIntoView().click()
         cy.wait(800)
     }
-    iPodShuffle(){
-        cy.wait(900)
-        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
-        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).should('be.visible')
-        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
-        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).realHover()
+    // iPodShuffle(){
+    //     cy.wait(900)
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).should('be.visible')
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).realHover()
+    //     cy.wait(900)
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.CartButton).should('be.visible').click({ force: true });
+    // }
+    iPodNano(){
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodNano).should('be.visible')
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodNano).realHover()
         cy.wait(900)
         cy.xpath(AddtoCartFunction.AddToCartLocators.CartButton).should('be.visible').click({ force: true });
+    }
+    // iMac(){
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iMac).should('be.visible')
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.iMac).realHover()
+    //     cy.wait(900)
+    //     cy.xpath(AddtoCartFunction.AddToCartLocators.CartButton).should('be.visible').click({ force: true });
+    // }
+    Checkout(){
+        cy.scrollTo('top')
+        cy.get(AddtoCartFunction.AddToCartLocators.Checkout).click()
+    }
+    CheckoutSideBar(){
+        cy.xpath(AddtoCartFunction.AddToCartLocators.CheckoutSideBar).click()
     }
    
 }
