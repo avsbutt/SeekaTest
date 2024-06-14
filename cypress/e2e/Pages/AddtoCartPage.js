@@ -20,10 +20,12 @@ export class AddtoCartClass{
     }
     iPodShuffle(){
         cy.wait(900)
-        cy.get(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView('mouseover')
-        cy.get(AddtoCartFunction.AddToCartLocators.iPodShuffle).trigger('mouseover')
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).should('be.visible')
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).scrollIntoView()
+        cy.xpath(AddtoCartFunction.AddToCartLocators.iPodShuffle).realHover()
         cy.wait(900)
-        cy.get(AddtoCartFunction.AddToCartLocators.CartButton).should('be.visible').click()
+        cy.xpath(AddtoCartFunction.AddToCartLocators.CartButton).should('be.visible').click({ force: true });
     }
    
 }
