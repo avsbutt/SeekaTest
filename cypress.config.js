@@ -22,7 +22,8 @@ module.exports = defineConfig({
     screenshotOnRunFailure: true,
     reporter: 'mocha-allure-reporter',
     reporterOptions: {
-      targetDir: 'allure-results'
+      targetDir: 'allure-results',
+      "viewportWidth":1280
     
 
     }
