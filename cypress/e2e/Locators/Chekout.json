@@ -1,17 +1,16 @@
-{ "CheckoutLocators"
+{ "CheckoutLocators":
     {
-"FirstName":"//input[@id='input-payment-firstname']",
-"LastName":"//input[@id='input-payment-lastname']",
-"Email":"//input[@id='input-payment-email']",
-"Telephone":"//input[@id='input-payment-telephone']",
-"Password":"//input[@id='input-payment-password']",
-"PasswordConfirm":"//input[@id='input-payment-confirm']",
-"Address1":"//input[@id='input-payment-address-1']",
-"City":"//input[@id='input-payment-city']",
-"PostCode":"//input[@id='input-payment-postcode']",
-"Country":"//select[@id='input-payment-country']",
-"RegionState":"//select[@id='input-payment-zone']",
-"ContinueBtn":""
+        "FirstName":"//input[@id='input-payment-firstname']",
+        "LastName":"//input[@id='input-payment-lastname']",
+        "Email":"//input[@id='input-payment-email']",
+        "Telephone":"//input[@id='input-payment-telephone']",
+        "Password":"//input[@id='input-payment-password']",
+        "PasswordConfirm":"//input[@id='input-payment-confirm']",
+        "Address1":"//input[@id='input-payment-address-1']",
+        "City":"//input[@id='input-payment-city']",
+        "PostCode":"//input[@id='input-payment-postcode']",
+        "Country":"//select[@id='input-payment-country']",
+        "RegionState":"//select[@id='input-payment-zone']"
 
-    }
+    } 
 }
