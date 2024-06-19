@@ -2,7 +2,7 @@ const AddtoCartFunction = require("../Locators/AddToCart.json")
 
 export class AddtoCartClass{
     ShopCatagory(){
-        cy.xpath(AddtoCartFunction.AddToCartLocators.ShopCatooary).click()
+        cy.xpath(AddtoCartFunction.AddToCartLocators.ShopCatagory).click()
         cy.wait(300)
     }
   

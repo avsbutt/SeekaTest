@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jun 20 02:02:08 PKT 2024","Thu Jun 20 02:02:57 PKT 2024","49217","","Add To Cart an Apple Product","","Add To Cart an Apple Product","TC01: User can Add an item to Cart","TC01: User can Add an item to Cart",""

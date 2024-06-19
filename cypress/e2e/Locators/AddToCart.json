@@ -1,22 +1,16 @@
 {
     "AddToCartLocators":
     {
-        "ShopCatooary":"//a[normalize-space()='Shop by Category']",
+        "ShopCatagory":"//a[normalize-space()='Shop by Category']",
         "PhoneAndTablets":"//span[normalize-space()='Phone, Tablets & Ipod']",
         "AppleLoc":"#mz-filter-panel-0-1 > .mz-filter-group-content > :nth-child(1) > .custom-control > .custom-control-label",
-         "iPodTouch":"//body/div[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]",
         "iPodShuffle":"//a[@id='mz-product-grid-image-34-212408']//div[@class='carousel-item active']//img[@title='iPod Shuffle']",
         "iPodNano":"//body/div[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]",
-        "iPhone":"//body/div[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[6]/div[1]/div[4]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]",
         "iMac":"//body/div[1]/div[6]/div[1]/div[3]/div[1]/div[1]/div[6]/div[1]/div[5]/div[1]/div[1]/div[1]/a[1]/div[1]/div[1]/img[1]",
         "CartButton":"//button[@class='btn btn-cart cart-36']",
         "SHowCart":"//body[1]/div[1]/div[6]/header[1]/div[2]/div[1]/div[5]/a[1]/div[1]/div[1]/*[name()='svg']/*[name()='use']",
         "Checkout":"#entry_217825 > .cart > .cart-icon > .badge",
         "CheckoutSideBar":"//a[normalize-space()='Checkout']",
-        "InStock":"#mz-filter-panel-0-5 > .mz-filter-group-content > :nth-child(1) > .custom-control",
-        "PrivacyPolicy":"//label[@for='input-account-agree']",
-        "TermsAndCondition":"//label[@for='input-agree']",
-        "ConfirmOrder":"//button[@id='button-confirm']",
-        "OrderConfirm":"//h1[normalize-space()='Your order has been placed!']"
+        "InStock":"#mz-filter-panel-0-5 > .mz-filter-group-content > :nth-child(1) > .custom-control"
     }
 }
