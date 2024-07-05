@@ -5,6 +5,10 @@ module.exports = defineConfig({
     //baseUrl: "https",
     setupNodeEvents(on, config) {
       // implement node event listeners here
+
+
+            // testomat.io reporter plugin:
+            require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
     },
 
     fixturesFolder: 'cypress/e2e/fixtures',
@@ -14,7 +18,7 @@ module.exports = defineConfig({
     video: true,
     videosFolder: 'cypress/e2e/videos',
     screenshotsFolder: 'cypress/e2e/screenshots',
-    pageLoadTimeout:50000 ,
+    pageLoadTimeout:60000 ,
     screenshots: true,
     
     viewportWidth: 1280,
